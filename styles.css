@@ -1,0 +1,68 @@
+.myName {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	margin: 0;
+	border-radius: 15px;
+	text-align: center;
+}
+.intro {
+	margin-top: 40px;
+	background-color: bisque;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+p {
+	width: 700px;
+	line-height: 2rem;
+	text-wrap: 10px;
+	overflow: auto;
+	margin: 20px;
+}
+.skills {
+	background-color: aquamarine;
+	margin: 0 auto;
+	padding: 7px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+li {
+	line-height: 2rem;
+	font-size: medium;
+}
+label {
+	display: block;
+	line-height: 3rem;
+	font-size: 25px;
+}
+fieldset {
+	border-radius: 15px;
+	padding: 15px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+.contactInfo {
+	background-color: bisque;
+	border-radius: 10px;
+}
+@media  (max-width: 720px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		justify-content: center;
+		align-items: center;
+		overflow:visible;
+		margin: 10px auto;
+	}
+	p {
+		text-align: center;
+		padding: auto;
+		margin-left: 20px;
+		margin-right: 20px;
+		overflow: hidden;
+	}
+}
